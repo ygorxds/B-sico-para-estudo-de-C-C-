@@ -1,0 +1,64 @@
+#include<iostream> 
+#include <cstdlib>
+#include <stdio.h>
+
+/*O include serve para importar biblioteca de dados por exemplo vou trabalhar com um programa de entrada e 
+saida de dados eu tenho que explicar isso para o programa então essa biblioteca define isso para a linguagem.*/
+
+using namespace std;
+// mostra o conteudo que O PROGRAMA vai buscar na biblioteca
+
+
+int main(){
+	 int I; // 10,25,30 SÃO NUMEROS INTEIROS 
+	 char letra; // usado para letras b,c,a,h,d,y
+	 char letra2[20]; // Nesse caso você pode por um texto, porem com o limite máximo de 20 caracteres, fazendo isso você cria um Vetor no seu código.
+	 double pe; // Usado para numeros com casas decimais 2.499999999
+	 float pe2; // é como double porem a precisão é menor, ele sempre vai arredondar 2.5
+	 bool p; //  SÓ EXISTE 2 POSSIBILIDADES PARA ESSE, VERDADEIRO OU FALSO, (BOLEANO) TRUE OR FALSE.TRUE = 1/ FALSE = 0
+	 string nc; // nesse caso ele recebe textos grandes como nomes ou poemas, ex. "Ygor","God of War". Toda STR tem que está entre aspas
+	 
+	 
+	 
+	//ABAIXO ESTÁ A ESTRUTURA QUE VOCÊ TEM QUE DEFINIR AS VÁRIAVEIS DA LINGUAGEM
+	//TIPO NOME;
+	//TIPO NOME = VALOR;
+	
+	
+	// main significa que é a função principal
+	// todo o código fica detro do main, COMO O INICIO EM PORTUGOL
+	
+	
+	cout<< "Digite sua idade:" <<endl;
+	cin>>I;
+	cout<< "Digite a primeira letra do seu nome:\n";
+    cin	>>letra;
+    cout<< "Digite apenas seu primeiro nome: \n";
+    cin>>letra2;
+    cout<< "Digite o seu peso: \n";
+    cin>>pe;
+    cout<< "Digite o seu peso para que o sistema o arredonde: \n";
+    cin>>pe2;
+    cout<< "Qual o seu nome completo? \n";
+    cin>>nc;
+    
+    
+    
+    cout<< I << "\n"<< letra << "\n" << letra2 << "\n" << pe << "\n" << pe2 <<"\n"<<nc;
+    
+	/*COUT OU PRINTF É COMANDO PARA IMPRIMIR NA TELA
+	cin é o leia em portugol, serve para o usuário poder digitar a informação e salvar na memória ram.
+	 << endline é para pular uma linha no c++
+	 no C é melhor por printf "Olá mundo\n";
+	 o \n tem a mesma função do endl tanto no c quanto no c++*/
+	
+	system ("pause");
+	
+    //ESTE COMANDO É PARA O PROGRAMA NÃO ABRIR E FECHAR QUANDO ESTIVER SENDO EXECUTADO FORA DA IDE
+
+	return 0;
+	/* É COMO FINSE NO PORTUGOL
+	 todo main tem que no final ter um return
+	 para escrever na tela em C é printf, para escrever na tela em c++ é cout*/
+	
+} 
