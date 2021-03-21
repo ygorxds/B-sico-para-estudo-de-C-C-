@@ -1,0 +1,39 @@
+#include<iostream> 
+#include <cstdlib>
+#include <stdio.h>
+
+// O include serve para importar biblioteca de dados por exemplo vou trabalhar com um programa de entrada e 
+//saida de dados eu tenho que explicar isso para o programa então essa biblioteca define isso para a linguagem.
+
+using namespace std;
+// mostra o conteudo que O PROGRAMA vai buscar na biblioteca
+
+
+int main(){
+	
+	//ABAIXO ESTÁ A ESTRUTURA QUE VOCÊ TEM QUE DEFINIR AS VÁRIAVEIS DA LINGUAGEM
+	//TIPO NOME;
+	//TIPO NOME = VALOR;
+	
+	
+	// main significa que é a função principal
+	// todo o código fica detro do main, COMO O INICIO EM PORTUGOL
+	
+	
+	cout<< "Hello World" <<endl; 
+	
+	// COUT OU PRINTF É COMANDO PARA IMPRIMIR NA TELA
+	// << endline é para pular uma linha no c++
+	// no C é melhor por printf "Olá mundo\n";
+	// o \n tem a mesma função do endl tanto no c quanto no c++
+	
+	system ("pause");
+	
+// ESTE COMANDO É PARA O PROGRAMA NÃO ABRIR E FECHAR QUANDO ESTIVER SENDO EXECUTADO FORA DA IDE
+
+	return 0;
+	// É COMO FINSE NO PORTUGOL
+	// todo main tem que no final ter um return
+	// para escrever na tela em C é printf, para escrever na tela em c++ é cout
+	
+} 
