@@ -1,0 +1,39 @@
+#include<iostream> 
+#include <cstdlib>
+#include <stdio.h>
+
+O incluir servir para importar biblioteca de dados por exemplo vou trabalhar com um programa de entrada e 
+saida de dados eu tenho que explicar isso para o programa então essa biblioteca definir isso para a linguagem.
+
+usando std namespace;
+mostra o conteudo que O PROGRAMA vai buscar na biblioteca
+
+
+int principal(){
+
+ ABAIXO ESTÁ A ESTRUTURA QUE VOCÊ TEM QUE DEFINIR COMO VÁRIAVEIS DA LINGUAGEM
+ TIPO NOME;
+ TIPO NOME = VALOR;
+
+
+ principal significa que é a função principal
+ todo o código fica detro do principal, como o INICIO EM PORTUGOL
+
+
+	cout<< "Hello World" <<endl; 
+
+ COUT OU PRINTF É COMANDO PARA IMPRIMIR NA TELA
+ << endline é para pular uma linha no c++
+ no C é melhor por printf "Olá mundo\n";
+ o \n tem a mesma função do endl tanto no c quanto no c++
+
+ sistema ("pausa");
+
+ESTE COMANDO É PARA O PROGRAMA NÃO ABRIR E FECHAR QUANDO SER EXECUTADO FORA DO IDE
+
+ retorno 0;
+ É COMO FINSE NO PORTUGOL
+ todo principal tem que no final ter um retorno
+ para escrever na tela em C é printf, para escrever na tela em c++ é cout
+
+} 
